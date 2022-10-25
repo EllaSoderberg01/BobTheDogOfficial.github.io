@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <title>About me. BOB.</title>
+</head>
+<body>
+    <div id="content">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="aboutMe.html">About me</a>
+        <a href="images.html">Images</a>
+        <a href="contact.html">Contact</a>
+        </div>
+
+    <div id="anchor">
+        <a href="aboutMe.html#who">So, who am I?</a>
+        <a href="aboutMe.html#fave">My favorite things</a>
+        <a href="aboutMe.html#hate">Things I HATE</a>
+
+    </div>
+
+    <div class="sectionAb">
+        <h1 id="who">So, who am I?</h1>
+
+    <div class="flex">
+        <div class="tva">
+            <p> I am a jack russel terrier (kind of) who was born on the third of November year 2021. I come
+                from a small town outside Uppsala called Hallstavik. On new years day 2022 my Husse and Matte 
+                came to bring me to my forever home, who currently is in an apartment in Umeå. 
+            </p> 
+        </div> 
+        <div class="ett">
+            <img src="images/bobandpig.JPG" class="bobandpig" alt="Bob">      
+          </div> 
+     </div>
+    </div>
+
+    <div class="sectionAb">
+        <h1 id="fave">My favorite things</h1>
+        <div class="flex">
+            <div class="ett">
+                <img src="images/kotte.jpeg" class="bobandpig" alt="Bob"> 
+                
+            </div> 
+            <div class="tva">
+                <p>I enjoy playing with my toys, especially the one called "Kotten". I prefer to not
+                    play with my toys alone, so most of the times I will take one toy and shove it 
+                    in Mattes or Husses palms or face. Then I want them to try to take the toy from
+                    me so they can throve it away for me to fetch it. 
+                </p>     
+              </div> 
+    
+         </div>
+
+    </div>
+
+
+    <div class="sectionAb">
+        <h1 id="hate">Things I HATE</h1>
+
+    <div class="flex">
+        <div class="tva">
+            <ul>
+                <li>Cutting my claws</li>
+                <li>Having a stupid funnel on my head (See pic)</li>
+                <li>Not saying Hi to every dog/human I pass by</li>
+                <li>When Husse and Matte leavs me home alone</li>
+            </ul>     
+          </div> 
+        <div class="ett">
+            <img src="images/trattBob.jpeg" class="bobandpig" alt="Bob">      
+
+        </div> 
+       
+     </div>
+    </div>
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var anchor = document.getElementById("anchor");
+        var sticky = anchor.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            anchor.classList.add("sticky")
+          } else {
+            anchor.classList.remove("sticky");
+          }
+        }
+        </script>
+    </div>
+    <footer>
+        <img src="images/cuteDog.gif" alt="This will display an animated GIF" id="gif">
+    </footer>
+    
+    </body>
+    
+
+    </html>
